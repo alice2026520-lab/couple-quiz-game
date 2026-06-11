@@ -12,7 +12,7 @@
         <view class="player-label">玩家1</view>
         <view class="score">{{player1Score}}</view>
         <view class="total">/ {{total}}</view>
-        <view class="percentage">{{(player1Score/total*100).toFixed(0)}}%</view>
+        <view class="percentage">{{player1Percentage}}%</view>
       </view>
 
       <view class="vs">vs</view>
@@ -22,7 +22,7 @@
         <view class="player-label">玩家2</view>
         <view class="score">{{player2Score}}</view>
         <view class="total">/ {{total}}</view>
-        <view class="percentage">{{(player2Score/total*100).toFixed(0)}}%</view>
+        <view class="percentage">{{player2Percentage}}%</view>
       </view>
     </view>
 

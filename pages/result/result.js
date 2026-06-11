@@ -3,7 +3,9 @@ Page({
     player1Score: 0,
     player2Score: 0,
     total: 10,
-    evaluation: ""
+    evaluation: "",
+    player1Percentage: 0,
+    player2Percentage: 0
   },
 
   onLoad(options) {
@@ -12,12 +14,16 @@ Page({
     const total = parseInt(options.total) || 10;
 
     const evaluation = this.getEvaluation(player1Score, player2Score, total);
+    const player1Percentage = Math.round((player1Score / total) * 100);
+    const player2Percentage = Math.round((player2Score / total) * 100);
 
     this.setData({
       player1Score,
       player2Score,
       total,
-      evaluation
+      evaluation,
+      player1Percentage,
+      player2Percentage
     });
   },
 
