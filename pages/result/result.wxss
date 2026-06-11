@@ -1,0 +1,170 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx 0 30rpx;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  margin-bottom: 40rpx;
+}
+
+.title {
+  font-size: 48rpx;
+  font-weight: bold;
+  margin-bottom: 15rpx;
+}
+
+.subtitle {
+  font-size: 26rpx;
+  opacity: 0.9;
+}
+
+.content {
+  flex: 1;
+  padding: 0 30rpx;
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+
+.scores-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.score-card {
+  background: white;
+  border-radius: 15rpx;
+  padding: 30rpx 20rpx;
+  flex: 1;
+  max-width: 160rpx;
+  text-align: center;
+  box-shadow: 0 10rpx 30rpx rgba(0, 0, 0, 0.2);
+}
+
+.score-card.player1 {
+  border-top: 6rpx solid #ff6b9d;
+}
+
+.score-card.player2 {
+  border-top: 6rpx solid #667eea;
+}
+
+.player-icon {
+  font-size: 40rpx;
+  margin-bottom: 10rpx;
+}
+
+.player-label {
+  font-size: 22rpx;
+  color: #999;
+  margin-bottom: 15rpx;
+}
+
+.score {
+  font-size: 48rpx;
+  font-weight: bold;
+  color: #333;
+}
+
+.total {
+  font-size: 20rpx;
+  color: #999;
+  display: inline;
+}
+
+.percentage {
+  font-size: 26rpx;
+  color: #ff6b9d;
+  font-weight: bold;
+  margin-top: 10rpx;
+}
+
+.vs {
+  color: white;
+  font-size: 24rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+
+.evaluation-card,
+.advice-card {
+  background: white;
+  border-radius: 15rpx;
+  padding: 30rpx;
+  box-shadow: 0 10rpx 30rpx rgba(0, 0, 0, 0.2);
+}
+
+.eval-title,
+.advice-title {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+
+.eval-text {
+  font-size: 26rpx;
+  color: #666;
+  line-height: 1.8;
+}
+
+.advice-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15rpx;
+}
+
+.advice-item {
+  font-size: 24rpx;
+  color: #666;
+  padding: 15rpx;
+  background: #f5f5f5;
+  border-radius: 10rpx;
+  line-height: 1.6;
+}
+
+.button-group {
+  display: flex;
+  gap: 15rpx;
+  margin-top: 30rpx;
+}
+
+.btn {
+  flex: 1;
+  padding: 20rpx;
+  border-radius: 12rpx;
+  border: none;
+  font-size: 26rpx;
+  font-weight: bold;
+}
+
+.btn::after {
+  border: none;
+}
+
+.btn-primary {
+  background: #ff6b9d;
+  color: white;
+}
+
+.btn-primary:active {
+  opacity: 0.8;
+}
+
+.btn-secondary {
+  background: white;
+  color: #667eea;
+  border: 2rpx solid #667eea;
+}
+
+.btn-secondary:active {
+  opacity: 0.8;
+}

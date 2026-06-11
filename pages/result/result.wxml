@@ -1,0 +1,51 @@
+<view class="container">
+  <view class="header">
+    <view class="title">🎉 游戏结束</view>
+    <view class="subtitle">看看你们对彼此的了解程度吧</view>
+  </view>
+
+  <view class="content">
+    <!-- 分数对比 -->
+    <view class="scores-container">
+      <view class="score-card player1">
+        <view class="player-icon">❤️</view>
+        <view class="player-label">玩家1</view>
+        <view class="score">{{player1Score}}</view>
+        <view class="total">/ {{total}}</view>
+        <view class="percentage">{{(player1Score/total*100).toFixed(0)}}%</view>
+      </view>
+
+      <view class="vs">vs</view>
+
+      <view class="score-card player2">
+        <view class="player-icon">💙</view>
+        <view class="player-label">玩家2</view>
+        <view class="score">{{player2Score}}</view>
+        <view class="total">/ {{total}}</view>
+        <view class="percentage">{{(player2Score/total*100).toFixed(0)}}%</view>
+      </view>
+    </view>
+
+    <!-- 评价 -->
+    <view class="evaluation-card">
+      <view class="eval-title">💬 评价</view>
+      <view class="eval-text">{{evaluation}}</view>
+    </view>
+
+    <!-- 建议 -->
+    <view class="advice-card">
+      <view class="advice-title">💡 小贴士</view>
+      <view class="advice-list">
+        <view class="advice-item">多多沟通，分享彼此的想法和梦想</view>
+        <view class="advice-item">记住对方的重要日期和喜好</view>
+        <view class="advice-item">定期一起做这个测试，看看对彼此的了解程度是否提升</view>
+      </view>
+    </view>
+
+    <!-- 按钮 -->
+    <view class="button-group">
+      <button class="btn btn-primary" bindtap="playAgain">再玩一次</button>
+      <button class="btn btn-secondary" bindtap="goHome">返回首页</button>
+    </view>
+  </view>
+</view>

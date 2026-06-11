@@ -1,0 +1,108 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx 0;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  margin-bottom: 60rpx;
+  padding: 40rpx 20rpx;
+}
+
+.title {
+  font-size: 48rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+
+.subtitle {
+  font-size: 28rpx;
+  opacity: 0.9;
+}
+
+.content {
+  flex: 1;
+  padding: 0 30rpx;
+}
+
+.card {
+  background: white;
+  border-radius: 20rpx;
+  padding: 40rpx 30rpx;
+  box-shadow: 0 10rpx 30rpx rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 40rpx;
+  text-align: center;
+}
+
+.mode-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30rpx;
+  border-radius: 15rpx;
+  border: none;
+  font-size: 0;
+  background: #ff6b9d;
+  color: white;
+}
+
+.btn::after {
+  border: none;
+}
+
+.btn-icon {
+  font-size: 40rpx;
+  margin-bottom: 10rpx;
+}
+
+.btn-text {
+  font-size: 28rpx;
+  font-weight: bold;
+}
+
+.btn:active {
+  opacity: 0.8;
+}
+
+.info {
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20rpx;
+  border-radius: 10rpx;
+  color: white;
+}
+
+.info-icon {
+  font-size: 32rpx;
+  margin-right: 15rpx;
+  min-width: 32rpx;
+}
+
+.info-text {
+  font-size: 26rpx;
+}

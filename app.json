@@ -1,0 +1,1 @@
+{"pages": ["pages/index/index", "pages/game/game", "pages/result/result"], "window": {"backgroundTextStyle": "light", "navigationBarBackgroundColor": "#ff6b9d", "navigationBarTitleText": "情侣问答", "navigationBarTextStyle": "white"}, "style": "v2", "sitemapLocation": "sitemap.json"}

@@ -1,0 +1,39 @@
+<view class="container">
+  <view class="header">
+    <view class="title">💑 情侣问答</view>
+    <view class="subtitle">看看你们有多了解彼此</view>
+  </view>
+
+  <view class="content">
+    <view class="card">
+      <view class="card-title">选择游戏模式</view>
+      
+      <view class="mode-buttons">
+        <button class="btn btn-primary" bindtap="startAsPlayer1">
+          <view class="btn-icon">🎮</view>
+          <view class="btn-text">我是第一位</view>
+        </button>
+        
+        <button class="btn btn-primary" bindtap="startAsPlayer2">
+          <view class="btn-icon">🎮</view>
+          <view class="btn-text">我是第二位</view>
+        </button>
+      </view>
+    </view>
+
+    <view class="info">
+      <view class="info-item">
+        <view class="info-icon">📝</view>
+        <view class="info-text">轮流回答问题</view>
+      </view>
+      <view class="info-item">
+        <view class="info-icon">✨</view>
+        <view class="info-text">看看对方答得如何</view>
+      </view>
+      <view class="info-item">
+        <view class="info-icon">❤️</view>
+        <view class="info-text">增进彼此了解</view>
+      </view>
+    </view>
+  </view>
+</view>
